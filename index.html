@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Health | Главная</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="header sticky">
+    <div class="container">
+        <nav class="nav">
+            <a href="index.html" class="header-logo-text">
+                <img src="img/logo.svg" alt="Логотип" class="header-logo-img">
+                Health
+            </a>
+            <ul class="nav-list">
+                <li class="nav-elem"><a href="about.html" class="nav-link">О нас</a></li>
+                <li class="nav-elem"><a href="#" class="nav-link">Регистрация</a></li>
+                <li class="nav-elem"><a href="#" class="nav-link">Вход</a></li>
+            </ul>
+            <a href="#">
+                <div class="shopping-cart">
+                    <i class="ri-shopping-cart-2-fill shopping-cart-icon"></i>
+                    <div class="shopping-cart-items">
+                        <div class="items-number">1</div>
+                    </div>
+                </div>
+            </a>
+            <div class="burger-menu">
+                <i class="ri-menu-line burger-open"></i>
+                <i class="ri-close-line burger-close"></i>
+            </div>
+        </nav>
+    </div>
+</header>
+<main class="main">
+    <section class="search">
+        <div class="products-search-block">
+            <div class="container">
+                <h1 class="search-title">Добро пожаловать!</h1>
+                <div class="search-form">
+                    <input type="search" class="search-input" placeholder="Поиск">
+                    <button class="search-button" type="submit">Поиск</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="container">
+            <h1 class="products-title">Товары для лечения в Сыктывкаре</h1>
+            <div class="filters">
+                <ul class="filter-list collapsed">
+                    <li class="main-filter-block" id="mainFilter">
+                        <span></span>
+                    </li>
+                    <li class="filter-block" data-filter="all">Все</li>
+                    <li class="filter-block" data-filter=".allergy">Аллергия</li>
+                    <li class="filter-block" data-filter=".antibiotics">Антибиотики</li>
+                    <li class="filter-block" data-filter=".temperature">Температура</li>
+                    <li class="filter-block" data-filter=".eyes">Глаза</li>
+                    <li class="filter-block" data-filter=".scabies">Чесотка</li>
+                    <li class="filter-block" data-filter=".stomach">Желудок</li>
+                </ul>
+            </div>
+            <div class="cards">
+                <div class="card allergy">
+                    <img src="img/products/first.png" alt="Изображение товара" class="card-img">
+                    <div class="card-main-info">
+                        <a href="product-page.html">
+                            <h1 class="card-title">Никсар, таблетки 20 мг 10 шт</h1>
+                        </a>
+                        <p class="card-desc">
+                            Производитель: А.Менарини Мэнюфекчеринг
+                            Действующее вещество: Биластин
+                        </p>
+                    </div>
+                    <div class="card-other-info">
+                        <p class="card-price">715 ₽</p>
+                        <button class="card-button">Купить</button>
+                    </div>
+                </div>
+                <div class="card allergy">
+                    <img src="img/products/second.png" alt="Изображение товара" class="card-img">
+                    <div class="card-main-info">
+                        <a href="product-page.html">
+                            <h1 class="card-title">Эриус, таблетки покрыт.плен.об. 5 мг 10 шт</h1>
+                        </a>
+                        <p class="card-desc">
+                            Производитель: Байер Биттерфельд ГмбХ, Германия
+                            Действующее вещество: Дезлоратадин
+                        </p>
+                    </div>
+                    <div class="card-other-info">
+                        <p class="card-price">1032 ₽</p>
+                        <button class="card-button">Купить</button>
+                    </div>
+                </div>
+                <div class="card antibiotics">
+                    <img src="img/products/third.png" alt="Изображение товара" class="card-img">
+                    <div class="card-main-info">
+                        <a href="product-page.html">
+                            <h1 class="card-title">Монурал, гранулы д/приг раствора для приема внутрь 3 г 1 шт</h1>
+                        </a>
+                        <p class="card-desc">
+                            Производитель: Замбон С.п.А., Италия
+                            Действующее вещество: Фосфомицин
+                        </p>
+                    </div>
+                    <div class="card-other-info">
+                        <p class="card-price">599 ₽</p>
+                        <button class="card-button">Купить</button>
+                    </div>
+                </div>
+                <div class="card antibiotics">
+                    <img src="img/products/fourth.png" alt="Изображение товара" class="card-img">
+                    <div class="card-main-info">
+                        <a href="product-page.html">
+                            <h1 class="card-title">Левофлоксацин-Вертекс, таблетки покрыт.плен.об. 500 мг 5 шт</h1>
+                        </a>
+                        <p class="card-desc">
+                            Производитель: Вертекс, Россия
+                            Действующее вещество: Левофлоксацин
+                        </p>
+                    </div>
+                    <div class="card-other-info">
+                        <p class="card-price">335 ₽</p>
+                        <button class="card-button">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="js/mixitup.min.js"></script>
+<script src="js/filter.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
